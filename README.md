@@ -27,7 +27,7 @@
 | **Coordinate 3** | Gaming enthusiast & strategy lover                |
 
 ---
-# 🖥️ Fateen Ahmed's Computer Science Odyssey 🚀
+# 🖥️ My Computer Science Odyssey 🚀
 
 ---
 
