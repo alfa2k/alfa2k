@@ -1,6 +1,6 @@
 # FATEEN AHMED
 
-![Profile Banner](https://drive.google.com/uc?export=view&id=1rVmlmmZobldVJbyFbfbCTtp9X5DIXYpZ)
+![Profile Banner](https://drive.google.com/uc?export=view&id=12y2vP52ncVQwknYJNvHjfK4VAQG7CxRK)
 
 > "Pioneering the intersection of AI, life, and binary trees."
 
