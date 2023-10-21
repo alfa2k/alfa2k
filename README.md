@@ -18,97 +18,81 @@
 
 ---
 
-## 🌐 Personal Matrix
-
-| Dimension        | Details           |
-|------------------|------------------|
-| **Coordinate 1** | Masters in AI at Illinois Institute of Technology |
-| **Coordinate 2** | Passion for building user-centric AI/ML solutions  |
-| **Coordinate 3** | Gaming enthusiast & strategy lover                |
-
----
-# 🖥️ Fateen Ahmed's Computer Science Odyssey 🚀
+| **Personal Matrix**               |                 |
+|----------------------------------|-----------------|
+| **Coordinate 1**                 | Masters in AI at Illinois Institute of Technology |
+| **Coordinate 2**                 | Passion for building user-centric AI/ML solutions  |
+| **Coordinate 3**                 | Gaming enthusiast & strategy lover                |
 
 ---
 
-## 🛠️ My Toolkit 🎒
-* **Programming Languages**: Python 🐍, Java ☕, C++, JavaScript 🪲
-* **Web Tech**: HTML 📄, CSS 🎨, PHP 🐘, Node.js 🟢
-* **Scripting Powers**: Bash 🐚, PowerShell ⚡
-* **AI/ML**: TensorFlow 🧠, PyTorch 🔥, scikit-learn 📊, Keras ⚙️
-* **Web Frameworks**: React ⚛️, Angular 🅰️, Vue.js 🌱
-* **Backend**: Django 🦄, Flask 🍶, Express.js 🚆
-* **Database Know-how**: SQL (MySQL, PostgreSQL) 📚, NoSQL (MongoDB) 🍃
-* **Cloud Platforms**: AWS 🌩️, Google Cloud ☁️, Azure 🌌
-* **DevOps & CI/CD**: Jenkins, Travis CI, Docker 🐳, Kubernetes ⛴
-* **IoT**: Raspberry Pi 🥧, MQTT 📡
-* **IDEs**: Jupyter Notebook 📓, Google Colab ☁️
-  
----
-# Timeline 🛤️
-
-## 2019
-- **Bachelors in Computer Engineering @ NUST**
-  - Duration: January 2019 - May 2021
-
-## 2021-2023
-- **IoT Project for Fishing Boats**
-  - Duration: September 2022 - June 2023
-- **Web App for Uni Canteen**
-  - Duration: August 2020 - November 2020
-- **Google Developer Student Clubs Lead**
-  - Duration: August 2022 - January 2023
-
-## 2023
-- **Completion of Bachelors**
-  - Date: May 2021
-- **Front-End Developer @ SACTECH**
-  - Duration: February 2022 - October 2022
-- **Masters in AI @ IIT**
-  - Start Date: August 2021 - Ongoing
-
----
-## 🤖 Artificial Intelligence Mastery 🧠
-
-- **Algorithms**: 
-  - Supervised 🍎
-  - Unsupervised 👓
-  - NLP 🗣
-  - Computer Vision 👁
-  - Deep Learning 🕳
-  
-- **Data Processing**: 
-  - ETL 🔄
-  - Cleaning 🧽
-  - Visualization (Tableau, PowerBI) 📊
-
-## 🔌 IoT Expertise 🌍
-
-- **Hardware**: 
-  - Sensor Integration 🌡️
-  - GPS Modules 🛰️
-  - Circuit Design 🔌
-  
-- **Electronics**: 
-  - Microcontrollers 🎮
-  - Embedded Systems 🖲
-
+| **Computer Science Odyssey**      |                 |
+|----------------------------------|-----------------|
+| **My Toolkit**                   |                 |
+| **Programming Languages**        | Python 🐍, Java ☕, C++, JavaScript 🪲 |
+| **Web Tech**                     | HTML 📄, CSS 🎨, PHP 🐘, Node.js 🟢 |
+| **Scripting Powers**             | Bash 🐚, PowerShell ⚡ |
+| **AI/ML**                        | TensorFlow 🧠, PyTorch 🔥, scikit-learn 📊, Keras ⚙️ |
+| **Web Frameworks**               | React ⚛️, Angular 🅰️, Vue.js 🌱 |
+| **Backend**                      | Django 🦄, Flask 🍶, Express.js 🚆 |
+| **Database Know-how**            | SQL (MySQL, PostgreSQL) 📚, NoSQL (MongoDB) 🍃 |
+| **Cloud Platforms**              | AWS 🌩️, Google Cloud ☁️, Azure 🌌 |
+| **DevOps & CI/CD**              | Jenkins, Travis CI, Docker 🐳, Kubernetes ⛴ |
+| **IoT**                          | Raspberry Pi 🥧, MQTT 📡 |
+| **IDEs**                         | Jupyter Notebook 📓, Google Colab ☁️ |
 
 ---
 
-## 🕹️ Gaming Interests
-
-Exploring the vast graph of gaming, I often traverse between strategy nodes and role-playing clusters. Connect with me for a co-op traversal on Discord!
-
-[![Discord](https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg)](https://discord.com/users/660206884396990495)
-
+| **Timeline**                      |                 |
+|-----------------------------------|-----------------|
+| **2019**                          |                 |
+| - **Bachelors in Computer Engineering @ NUST** | Duration: January 2019 - May 2021 |
+| **2021-2023**                     |                 |
+| - **IoT Project for Fishing Boats** | Duration: September 2022 - June 2023 |
+| - **Web App for Uni Canteen**     | Duration: August 2020 - November 2020 |
+| - **Google Developer Student Clubs Lead** | Duration: August 2022 - January 2023 |
+| **2023**                          |                 |
+| - **Completion of Bachelors**     | Date: May 2021 |
+| - **Front-End Developer @ SACTECH** | Duration: February 2022 - October 2022 |
+| - **Masters in AI @ IIT**         | Start Date: August 2021 - Ongoing |
 
 ---
 
-## 📜 Certifications & Extras
+| **Artificial Intelligence Mastery** |                 |
+|-----------------------------------|-----------------|
+| **Algorithms**                    |                 |
+| - Supervised 🍎                   |                 |
+| - Unsupervised 👓                 |                 |
+| - NLP 🗣                         |                 |
+| - Computer Vision 👁              |                 |
+| - Deep Learning 🕳               |                 |
+| **Data Processing**               |                 |
+| - ETL 🔄                          |                 |
+| - Cleaning 🧽                     |                 |
+| - Visualization (Tableau, PowerBI) | 📊            |
 
-- Encoded in Google's `Data Analytics` Algorithm
-- Rewarded with the `Dean's List` Token
+| **IoT Expertise**                 |                 |
+|-----------------------------------|-----------------|
+| **Hardware**                      |                 |
+| - Sensor Integration 🌡️           |                 |
+| - GPS Modules 🛰️                 |                 |
+| - Circuit Design 🔌              |                 |
+| **Electronics**                   |                 |
+| - Microcontrollers 🎮            |                 |
+| - Embedded Systems 🖲             |                 |
+
+---
+
+| **Gaming Interests**               |                 |
+|-----------------------------------|-----------------|
+| Exploring the vast graph of gaming, I often traverse between strategy nodes and role-playing clusters. Connect with me for a co-op traversal on Discord! | [![Discord](https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg)](https://discord.com/users/660206884396990495) |
+
+---
+
+| **Certifications & Extras**       |                 |
+|-----------------------------------|-----------------|
+| - Encoded in Google's `Data Analytics` Algorithm | |
+| - Rewarded with the `Dean's List` Token | |
 
 ---
 
