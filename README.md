@@ -2,16 +2,6 @@
 
 ![Profile Banner](https://drive.google.com/uc?export=view&id=12y2vP52ncVQwknYJNvHjfK4VAQG7CxRK)
 
-> "In the matrix of a master's journey, where neurons sync and tensors flow," 
-
-> "I dance with algorithms to craft the ultimate user show. "
-
-> "Between the bytes and pixels, my quest is   AI-software glow. "
-
-> "Can you decipher where I wish to go?"
-
-📧 **Email**: [fateenahmed.2k@gmail.com](mailto:fateenahmed.2k@gmail.com)  
-
 ---
 
 ## 🌐 Personal Matrix
