@@ -2,10 +2,18 @@
 
 ![Profile Banner](https://drive.google.com/uc?export=view&id=12y2vP52ncVQwknYJNvHjfK4VAQG7CxRK)
 
-> "Pioneering the intersection of AI, life, and binary trees."
+> "In the matrix of a master's journey, where neurons sync and tensors flow," 
 
-📍 **Location**: Chicago, United States  
+> "I dance with algorithms to craft the ultimate user show. "
+
+> "Between the bytes and pixels, my quest is   AI-software glow. "
+
+> "Can you decipher where I wish to go?"
+
+📍 **Location**: Chicago, United States 
+
 📧 **Email**: [fateenahmed.2k@gmail.com](mailto:fateenahmed.2k@gmail.com)  
+
 📞 **Contact**: +1 8045286071
 
 ---
@@ -37,27 +45,29 @@
 * **IDEs**: Jupyter Notebook 📓, Google Colab ☁️
   
 ---
+# Timeline 🛤️
 
-## 📜 Career Timeline 🛤️
-```mermaid
-gantt
-    dateFormat  YYYY-MM
-    title Fateen Ahmed's Career Timeline
+## 2019
+- **Bachelors in Computer Engineering @ NUST**
+  - Duration: January 2019 - May 2021
 
-    section 2019:
-    Bachelors in Computer Engineering @ NUST :done, 2019-01, 24M
-    section 2020:
-    IoT Project for Fishing Boats :done, 2020-03, 4M
-    Web App for Uni Canteen :done, 2020-08, 3M
-    section 2021:
-    Completed Bachelors :done, 2021-05, 1M
-    Masters in AI @ IIT :active, 2021-08, 24M
-    section 2022:
-    Front-End Developer @ SACTECH :done, 2022-02, 8M
-    Google Developer Student Clubs Lead :done, 2022-07, 6M
-    section 2023:
-    Pursuing Masters in AI :active, 2023-01, 12M
-```
+## 2021-2023
+- **IoT Project for Fishing Boats**
+  - Duration: September 2022 - June 2023
+- **Web App for Uni Canteen**
+  - Duration: August 2020 - November 2020
+- **Google Developer Student Clubs Lead**
+  - Duration: August 2022 - January 2023
+
+## 2023
+- **Completion of Bachelors**
+  - Date: May 2021
+- **Front-End Developer @ SACTECH**
+  - Duration: February 2022 - October 2022
+- **Masters in AI @ IIT**
+  - Start Date: August 2021 - Ongoing
+
+---
 ## 🤖 Artificial Intelligence Mastery 🧠
 
 - **Algorithms**: 
