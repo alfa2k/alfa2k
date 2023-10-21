@@ -10,11 +10,7 @@
 
 > "Can you decipher where I wish to go?"
 
-📍 **Location**: Chicago, United States 
-
 📧 **Email**: [fateenahmed.2k@gmail.com](mailto:fateenahmed.2k@gmail.com)  
-
-📞 **Contact**: +1 8045286071
 
 ---
 
