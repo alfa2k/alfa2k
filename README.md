@@ -20,13 +20,12 @@
 ## 🛠️ My Toolkit 🎒
 * **Programming Languages**: Python 🐍, Java ☕, C++, JavaScript 🪲
 * **Web Tech**: HTML 📄, CSS 🎨, PHP 🐘, Node.js 🟢
-* **Scripting Powers**: Bash 🐚, PowerShell ⚡
 * **AI/ML**: TensorFlow 🧠, PyTorch 🔥, scikit-learn 📊, Keras ⚙️
 * **Web Frameworks**: React ⚛️, Angular 🅰️, Vue.js 🌱
 * **Backend**: Django 🦄, Flask 🍶, Express.js 🚆
 * **Database Know-how**: SQL (MySQL, PostgreSQL) 📚, NoSQL (MongoDB) 🍃
-* **Cloud Platforms**: AWS 🌩️, Google Cloud ☁️, Azure 🌌
-* **DevOps & CI/CD**: Jenkins, Travis CI, Docker 🐳, Kubernetes ⛴
+* **Cloud Platforms**: AWS 🌩️, Google Cloud ☁️
+* **DevOps & CI/CD**: Docker 🐳, Kubernetes ⛴
 * **IoT**: Raspberry Pi 🥧, MQTT 📡
 * **IDEs**: Jupyter Notebook 📓, Google Colab ☁️
   
@@ -54,7 +53,7 @@
   - Start Date: August 2021 - Ongoing
 
 ---
-## 🤖 Artificial Intelligence Mastery 🧠
+## 🤖 Artificial Intelligence 🧠
 
 - **Algorithms**: 
   - Supervised 🍎
@@ -99,4 +98,5 @@ Exploring the vast graph of gaming, I often traverse between strategy nodes and 
 ---
 
 🔗 Connect with me in the vast web of internet:
-💼 [LinkedIn](https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/) | 🐦 [Portfolio](https://bento.me/fateen)
+💼 [LinkedIn](https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/) | 🐦 [Portfolio](https://fateenahmed.framer.website
+)
