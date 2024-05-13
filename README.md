@@ -8,9 +8,9 @@
 
 | Dimension        | Details           |
 |------------------|------------------|
-| **Coordinate 1** | Masters in AI at Illinois Institute of Technology |
-| **Coordinate 2** | Passion for building user-centric AI/ML solutions  |
-| **Coordinate 3** | Gaming enthusiast & strategy lover                |
+| **1** | Masters in AI at Illinois Institute of Technology |
+| **2** | Passion for building user-centric AI/ML solutions  |
+| **3** | Gaming enthusiast |
 
 ---
 # 🖥️ My Computer Science Odyssey 🚀
