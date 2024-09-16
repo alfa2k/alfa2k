@@ -12,10 +12,6 @@
 | **2** | Passion for building user-centric AI/ML solutions  |
 | **3** | Gaming enthusiast |
 
----
-# 🖥️ My Computer Science Odyssey 🚀
-
----
 
 ## 🛠️ My Toolkit 🎒
 * **Programming Languages**: Python 🐍, Java ☕, C++, JavaScript 🪲
@@ -81,9 +77,6 @@
 
 ---
 
-## 🕹️ Gaming Interests
-
-Exploring the vast graph of gaming, I often traverse between strategy nodes and role-playing clusters. Connect with me for a co-op traversal on Discord!
 
 [![Discord](https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg)](https://discord.com/users/660206884396990495)
 
