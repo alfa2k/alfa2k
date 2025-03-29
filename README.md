@@ -1,138 +1,75 @@
-<div align="center">
-  
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" /> Hello World! I'm Fateen Ahmed
+# 👋 Hi, I'm Fateen Ahmed
 
-<a href="https://fateenahmed.com"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" /></a>
-<a href="https://linkedin.com/in/fateenahmed"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:fateenahmed.2k@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/fateenahmed](https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/))
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](fateenahmed.framer.website)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fateenahmed.2k@gmail.com)
 
-</div>
+## 🤖 About Me
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00A9BC&center=true&vCenter=true&random=false&width=500&lines=AI+Engineer+%26+Full+Stack+Developer;Bringing+AI+to+Life;Masters+Student+at+Illinois+Tech;Turning+Coffee+into+Code+and+Models" alt="Typing SVG" />
-</p>
+AI Engineer and Full Stack Developer with working experience with **Amazon** and **Byanat**. Currently pursuing my M.S. in Artificial Intelligence at Illinois Institute of Technology, focusing on GenAI applications, LLMs, and intelligent agent systems.
 
-<br>
-
-<div align="center">
-<img src="https://github-stats-alpha.vercel.app/api?username=fateenahmed&cc=22272e&tc=37BCF6&ic=fff&bc=0000">
-</div>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="25" height="25" /> About Me
-
-```javascript
-const fateen = {
-  experience: ["Amazon", "Meta", "Byanat"],
-  education: "MS in Artificial Intelligence @ Illinois Institute of Technology",
-  researchInterests: ["Large Language Models", "Agent-based Systems", "GenAI Applications"],
-  currentFocus: "Building intelligent systems with LLMs and tool-calling frameworks",
-  askMeAbout: ["LangChain", "Llama Models", "React", "Python", "Data Science"],
-  funFact: "I can debug code faster than I can solve a Rubik's cube (and I'm pretty quick with those too)",
-  goal: "Creating AI systems that amplify human creativity and solve real-world problems"
-};
+```python
+class FateenAhmed:
+    def __init__(self):
+        self.name = "Fateen Ahmed"
+        self.role = "AI Engineer & Full Stack Developer"
+        self.education = "M.S. Artificial Intelligence @ Illinois Institute of Technology"
+        self.languages = ["Python", "JavaScript", "C/C++", "Java", "SQL", "R"]
+        self.interests = ["Generative AI", "LLM Agents", "Data Science", "Full Stack Development"]
+        self.current_focus = "Building intelligent systems with LangChain, Autogen, and Llama models"
+        
+    def greet(self):
+        return "Thanks for stopping by! Let's build something amazing together."
 ```
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/fateenahmed/fateenahmed/main/assets/ai-banner.gif" width="600">
-</div>
+## 🛠️ Tech Stack
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" /> Tech Universe
+**Languages:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-      <br>JavaScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
-      <br>C++
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-      <br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-      <br>AWS
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="LLMs" width="65" height="65" />
-      <br>LLMs
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="65" height="65" />
-      <br>TensorFlow
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch" width="65" height="65" />
-      <br>PyTorch
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Plotly-logo-01-square.png" alt="Plotly" width="65" height="65" />
-      <br>Plotly
-    </td>
-    <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" width="65" height="65" />
-      <br>Flask
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" alt="FastAPI" width="65" height="65" />
-      <br>FastAPI
-    </td>
-  </tr>
-</table>
+**Frameworks & Tools:**  
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" alt="Sparkles" width="25" height="25" /> Featured Projects
+**AI/ML:**  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-00A9BC?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTkuNDkgMjFhLjM4LjM4IDAgMCAxLS4zOC0uMzh2LS43NmMwLS4yMS4xNy0uMzguMzgtLjM4aDEuODlhMi4yNiAyLjI2IDAgMCAwIDAtNC41SDcuOTd2NS4yNmMwIC4yMS0uMTcuMzgtLjM4LjM4aC0uNzZhLjM4LjM4IDAgMCAxLS4zOC0uMzhWMTAuMTRjMC0uMjEuMTctLjM4LjM4LS4zOGg0LjE1YTMuNzcgMy43NyAwIDAgMSAwIDcuNTNIOS40OVYyMXptLTMuNzctMy43N2EuMzguMzggMCAwIDEtLjM4LS4zOHYtLjc2YzAtLjIxLjE3LS4zOC4zOC0uMzhoLjc2Yy4yMSAwIC4zOC4xNy4zOC4zOHYuNzZjMCAuMjEtLjE3LjM4LS4zOC4zOGgtLjc2em0xLjEzLTcuNTRhLjM4LjM4IDAgMCAxLS4zOC0uMzh2LS43NmMwLS4yMS4xNy0uMzguMzgtLjM4aC43NmMuMjEgMCAuMzguMTcuMzguMzh2Ljc2YzAgLjIxLS4xNy4zOC0uMzguMzhoLS43NnoiIGZpbGw9IiMwMEE5QkMiLz48cGF0aCBkPSJNMTQuNTEgMjFhLjM4LjM4IDAgMCAxLS4zOC0uMzh2LTYuMDJoLTEuODlhMi4yNiAyLjI2IDAgMCAwIDAtNC41MmgxLjg5VjguODRjMC0uMjEuMTctLjM4LjM4LS4zOGguNzZjLjIxIDAgLjM4LjE3LjM4LjM4djEuMjRoMS4xM2MuMjEgMCAuMzguMTcuMzguMzh2Ljc2YzAgLjIxLS4xNy4zOC0uMzguMzhoLTEuMTN2Ny4wMmMwIC4yMS0uMTcuMzgtLjM4LjM4aC0uNzZ6bS4zNy03LjUzaC43NmMuMjEgMCAuMzguMTcuMzguMzh2Ljc2YzAgLjIxLS4xNy4zOC0uMzguMzhoLS43NmEuMzguMzggMCAwIDEtLjM4LS4zOHYtLjc2YzAtLjIxLjE3LS4zOC4zOC0uMzh6bTMuMDIgMy43NmEuMzguMzggMCAwIDEtLjM4LS4zOHYtLjc2YzAtLjIxLjE3LS4zOC4zOC0uMzhoLjc2Yy4yMSAwIC4zOC4xNy4zOC4zOHYuNzZjMCAuMjEtLjE3LjM4LS4zOC4zOGgtLjc2eiIgZmlsbD0iIzAwQTlCQyIvPjwvc3ZnPg==&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama-000000?style=flat-square&logo=meta&logoColor=white)
 
-<div align="center">
+## 🚀 Featured Projects
 
-[![GenAI Mobility Platform](https://github-readme-stats.vercel.app/api/pin/?username=fateenahmed&repo=alfa2k&theme=tokyonight&hide_border=true&title_color=00A9BC)](https://github.com/fateenahmed/alfa2k)
-[![AI Fake Review Detection](https://github-readme-stats.vercel.app/api/pin/?username=fateenahmed&repo=Research-Project-On-AI-Generated-Fake-Reviews&theme=tokyonight&hide_border=true&title_color=00A9BC)](https://github.com/fateenahmed/Research-Project-On-AI-Generated-Fake-Reviews)
+### GenAI & ML Projects
+- [**GenAI Mobility Data Platform**](https://youtu.be/dhmRFlbCkkk) - A comprehensive system for analyzing and visualizing transport data using Llama models and LangChain for enhanced decision-making.
+- [**AI Fake Review Detection**](https://github.com/alfa2k/Research-Project-On-AI-Generated-Fake-Reviews) - Research project focused on detecting AI-generated fake reviews in Amazon product data.
+- [**Save CityX ML Challenge**](https://github.com/alfa2k/rihal-task-ml-save-cityx) - Machine learning solution for the Rihal Codestacker Challenge.
 
-[![Reddit Network Analysis](https://github-readme-stats.vercel.app/api/pin/?username=fateenahmed&repo=CS-579-Reddit-Network-Analysis&theme=tokyonight&hide_border=true&title_color=00A9BC)](https://github.com/fateenahmed/CS-579-Reddit-Network-Analysis)
-[![Smart Home App](https://github-readme-stats.vercel.app/api/pin/?username=fateenahmed&repo=csp584-smarthomeapp&theme=tokyonight&hide_border=true&title_color=00A9BC)](https://github.com/fateenahmed/csp584-smarthomeapp)
+### Data Analysis
+- [**Reddit Network Analysis**](https://github.com/alfa2k/CS-579-Reddit-Network-Analysis) - Comprehensive social network analysis of Reddit communities and user interactions.
+- [**Air Quality & Public Health Analysis**](https://github.com/alfa2k/csp571-Analysis-Project) - Exploring correlations between air quality and public health in the United States.
+- [**Mastodon Public Data Analysis**](https://github.com/alfa2k/Analyzing-Mastadon-s-Public-Data) - Network analysis of the Mastodon social platform examining user interactions and community dynamics.
 
-</div>
+### Web & Application Development
+- [**Smart Home Application**](https://github.com/alfa2k/csp584-smarthomeapp) - React-based smart home control application with Express.js backend.
+- [**IoT-Based System for Boats**](https://github.com/alfa2k/IoT-Based-System-for-Boats) - Monitoring and security system for fishing boats using IoT technologies.
+- [**Car Showroom Website**](https://github.com/alfa2k/Car-Showroom-Website) - Online platform for exploring, comparing, and booking vehicles.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" /> GitHub Stats
+## 📚 Currently Learning
 
-<div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=fateenahmed&theme=tokyonight&hide_border=true" />
-</div>
-
-<br>
-
-<div align="center">
-  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fateenahmed&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-</div>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="25" height="25" /> Current Explorations
-
-<div align="center">
-  
-| Advanced Agent Architectures | RAG with Vector DBs | Multimodal AI Applications | RLHF for LLM Alignment |
-|:---------------------------:|:-------------------:|:--------------------------:|:----------------------:|
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="70" height="70" /> | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Right.png" alt="Search" width="70" height="70" /> | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rainbow.png" alt="Rainbow" width="70" height="70" /> | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Thumbs%20Up.png" alt="Thumbs Up" width="70" height="70" /> |
-  
-</div>
+- Advanced Agent Architectures (CrewAI, AutoGen)
+- RAG Systems with Vector Databases
+- RLHF for LLM Alignment
+- Multimodal AI Applications
 
 ---
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling"/>
-</div>
-
-<!-- Note: You'll need to upload an ai-banner.gif to your repo's assets folder for the banner image to work -->
