@@ -65,11 +65,6 @@ class FateenAhmed:
 - [**IoT-Based System for Boats**](https://github.com/fateenahmed/IoT-Based-System-for-Boats) - Monitoring and security system for fishing boats using IoT technologies.
 - [**Car Showroom Website**](https://github.com/fateenahmed/Car-Showroom-Website) - Online platform for exploring, comparing, and booking vehicles.
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fateenahmed&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fateenahmed&layout=compact&theme=tokyonight)
-
 ## 📚 Currently Learning
 
 - Advanced Agent Architectures (CrewAI, AutoGen)
