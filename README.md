@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Fateen Ahmed
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/fateenahmed](https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/))
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://fateenahmed.framer.website)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://alfa2k.github.io/alfa2k/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fateenahmed.2k@gmail.com)
 
 ## 🤖 About Me
