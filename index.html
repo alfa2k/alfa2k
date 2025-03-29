@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fateen Ahmed - AI Engineer & Developer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap');
+        
+        :root {
+            --pixel-size: 4px;
+            --primary: #000000;
+            --secondary: #ffffff;
+            --accent: #6bc0dc;
+            --accent2: #4dffbd;
+            --bg-color: #f8f8f8;
+            --card-bg: #ffffff;
+            --text-color: #000000;
+            --grid-color: rgba(0, 0, 0, 0.05);
+        }
+        
+        [data-theme="dark"] {
+            --primary: #ffffff;
+            --secondary: #121212;
+            --accent: #6bc0dc;
+            --accent2: #4dffbd;
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #ffffff;
+            --grid-color: rgba(255, 255, 255, 0.05);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            background-image: linear-gradient(var(--grid-color) 1px, transparent 1px),
+                              linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: var(--text-color);
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .pixel-border {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1000;
+            border: var(--pixel-size) solid var(--primary);
+            box-sizing: border-box;
+            background-image: 
+                linear-gradient(45deg, var(--accent) 25%, transparent 25%),
+                linear-gradient(-45deg, var(--accent) 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, var(--accent) 75%),
+                linear-gradient(-45deg, transparent 75%, var(--accent) 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            background-repeat: repeat;
+            border-image-slice: 4;
+            border-image-width: 4;
+            border-image-outset: 0;
+            opacity: 0.8;
+        }
+        
+        .pixel-corner {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background-color: var(--accent);
+            z-index: 1001;
+            pointer-events: none;
+        }
+        
+        .corner-tl { top: 0; left: 0; }
+        .corner-tr { top: 0; right: 0; }
+        .corner-bl { bottom: 0; left: 0; }
+        .corner-br { bottom: 0; right: 0; }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            position: relative;
+            padding-top: 20px;
+            animation: slideDown 0.8s ease-out;
+        }
+        
+        .title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 8px;
+            letter-spacing: 1px;
+            color: var(--primary);
+            text-shadow: 2px 2px 0px var(--accent);
+        }
+        
+        .title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: var(--pixel-size);
+            background-color: var(--primary);
+            box-shadow: 2px 2px 0px var(--accent);
+            animation: pulse 2s infinite;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .pixel-btn {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 12px;
+            text-transform: uppercase;
+            padding: 12px 16px;
+            background-color: var(--primary);
+            color: var(--secondary);
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-block;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 4px 4px 0px var(--accent);
+        }
+        
+        .pixel-btn:hover {
+            transform: translateY(-4px) translateX(-2px);
+            box-shadow: 6px 6px 0px var(--accent);
+        }
+        
+        .pixel-btn:active {
+            transform: translateY(2px) translateX(2px);
+            box-shadow: 2px 2px 0px var(--accent);
+        }
+        
+        .pixel-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: 0.5s;
+        }
+        
+        .pixel-btn:hover::before {
+            left: 100%;
+        }
+        
+        .hero {
+            display: flex;
+            margin-bottom: 60px;
+            gap: 40px;
+            align-items: center;
+            animation: fadeIn 1s ease-out;
+        }
+        
+        .hero-content {
+            flex: 1;
+        }
+        
+        .avatar-container {
+            position: relative;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .avatar {
+            width: 150px;
+            height: 150px;
+            background-color: var(--card-bg);
+            border: var(--pixel-size) solid var(--primary);
+            position: relative;
+            overflow: hidden;
+            z-index: 2;
+            box-shadow: 8px 8px 0px var(--accent);
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .avatar-bg {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-image: 
+                repeating-linear-gradient(45deg, var(--accent2) 0, var(--accent2) 5px, transparent 5px, transparent 10px),
+                repeating-linear-gradient(-45deg, var(--accent2) 0, var(--accent2) 5px, transparent 5px, transparent 10px);
+            top: 15px;
+            left: 15px;
+            z-index: 1;
+        }
+        
+        .large-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            color: var(--primary);
+            text-shadow: 2px 2px 0px var(--accent);
+            animation: typing 3.5s steps(40, end);
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 300;
+            animation: fadeIn 2s ease;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+            position: relative;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s, transform 0.5s;
+        }
+        
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .card {
+            border: var(--pixel-size) solid var(--primary);
+            padding: 20px;
+            position: relative;
+            background-color: var(--card-bg);
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 6px 6px 0px var(--accent);
+            font-size: 14px;
+        }
+        
+        .card:hover {
+            transform: translateY(-6px) translateX(-3px);
+            box-shadow: 9px 9px 0px var(--accent);
+        }
+        
+        .card-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
+            color: var(--primary);
+        }
+        
+        .tag {
+            display: inline-block;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 10px;
+            background-color: var(--primary);
+            color: var(--secondary);
+            padding: 5px 8px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            position: relative;
+            box-shadow: 2px 2px 0px var(--accent);
+        }
+        
+        .tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 3px 3px 0px var(--accent);
+        }
+        
+        .skill-section {
+            margin-bottom: 30px;
+        }
+        
+        .skill-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
+            color: var(--primary);
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .pixel-bar {
+            height: var(--pixel-size);
+            background: linear-gradient(90deg, var(--primary) 70%, var(--accent) 70%);
+            margin: 40px 0;
+            position: relative;
+            animation: progressBar 2s ease-out forwards;
+            transform-origin: left;
+        }
+        
+        .pixel-bar::before {
+            content: '';
+            position: absolute;
+            top: -4px;
+            right: 0;
+            width: 12px;
+            height: 12px;
+            background-color: var(--accent);
+            animation: pulse 2s infinite;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 12px;
+            letter-spacing: 1px;
+            animation: fadeIn 1s ease-out;
+        }
+        
+        .pixel-cursor {
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background-color: var(--primary);
+            animation: blink 1s infinite;
+            margin-left: 5px;
+        }
+        
+        .theme-toggle {
+            background: none;
+            border: var(--pixel-size) solid var(--primary);
+            cursor: pointer;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            color: var(--primary);
+            background-color: var(--secondary);
+            box-shadow: 3px 3px 0px var(--accent);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .theme-toggle:hover {
+            transform: translateY(-2px) translateX(-1px);
+            box-shadow: 4px 4px 0px var(--accent);
+        }
+        
+        .project-category {
+            margin-bottom: 30px;
+        }
+        
+        .category-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: var(--primary);
+            text-shadow: 1px 1px 0px var(--accent);
+        }
+        
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes progressBar {
+            from { transform: scaleX(0); }
+            to { transform: scaleX(1); }
+        }
+        
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .avatar-container {
+                margin: 0 auto;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .title {
+                font-size: 18px;
+            }
+            
+            .large-title {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="pixel-border"></div> -->
+    <div class="pixel-corner corner-tl"></div>
+    <div class="pixel-corner corner-tr"></div>
+    <div class="pixel-corner corner-bl"></div>
+    <div class="pixel-corner corner-br"></div>
+    
+    <header>
+        <h1 class="title">Fateen Ahmed</h1>
+        <div class="nav-links">
+            <a href="https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/" class="pixel-btn">LinkedIn</a>
+            <a href="https://github.com/alfa2k" class="pixel-btn">GitHub</a>
+            <a href="mailto:fateenahmed.2k@gmail.com" class="pixel-btn">Email</a>
+            <button class="theme-toggle" id="themeToggle">🌓</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="avatar-container">
+                <div class="avatar">
+                    <img src="FateenAhmed.jpg" alt="Fateen Ahmed">
+                </div>
+                <div class="avatar-bg"></div>
+            </div>
+            <div class="hero-content">
+                <h2 class="large-title">AI ENGINEER & FULL STACK DEVELOPER</h2>
+                <p class="subtitle">AI Engineer and Full Stack Developer with working experience with **Amazon** and **Byanat**. Currently pursuing my M.S. in Artificial Intelligence at Illinois Institute of Technology, focusing on GenAI applications, LLMs, and intelligent agent systems.</p>
+            </div>
+        </section>
+        
+        <div class="pixel-bar"></div>
+        
+        <section class="section">
+            <h2 class="title">Experience</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3 class="card-title">AMAZON</h3>
+                    <p>Simulation Engineer</p>
+                    <p>Oct 2024 - Present</p>
+                    <p>Designing and simulating engineering solutions for Amazon's material handling systems.</p>
+                </div>
+                
+                <div class="card">
+                    <h3 class="card-title">META - LLAMA DESIGN</h3>
+                    <p>AI Engineer & Full Stack Developer</p>
+                    <p>Sept 2024 - Oct 2024</p>
+                    <p>Developed GenAI-powered insights for RTA to increase Dubai public transport ridership by 15%.</p>
+                </div>
+                
+                <div class="card">
+                    <h3 class="card-title">BYANAT</h3>
+                    <p>Software Engineering Intern - GenAI</p>
+                    <p>May 2024 - Sept 2024</p>
+                    <p>Built a GenAI-powered data catalog application using React and FastAPI.</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="pixel-bar"></div>
+        
+        <section class="section">
+            <h2 class="title">Projects</h2>
+            
+            <div class="project-category">
+                <h3 class="category-title">GenAI & ML Projects</h3>
+                <div class="grid">
+                    <div class="card">
+                        <h3 class="card-title">GENAI MOBILITY DATA PLATFORM</h3>
+                        <p>Multi-component system for analyzing and visualizing transport data using Llama models and LangChain.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Vite</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Llama</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://youtu.be/dhmRFlbCkkk" class="pixel-btn">View the demo</a>
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">GENAI POWERED DATA CATALOG</h3>
+                        <p>Data catalog application with advanced dataset search, detailed metadata views, and AI-powered insights.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">GCP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">AI FAKE REVIEW DETECTION</h3>
+                        <p>Research project focused on detecting AI-generated fake reviews in Amazon product data.</p>
+                        <div class="tags">
+                            <span class="tag">ML</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/Research-Project-On-AI-Generated-Fake-Reviews" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">SAVE CITYX ML CHALLENGE</h3>
+                        <p>Machine learning solution for the Rihal Codestacker Challenge, focusing on predictive analytics.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">ML</span>
+                            <span class="tag">Data Science</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/rihal-task-ml-save-cityx" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-category">
+                <h3 class="category-title">Data Analysis Projects</h3>
+                <div class="grid">
+                    <div class="card">
+                        <h3 class="card-title">REDDIT NETWORK ANALYSIS</h3>
+                        <p>Comprehensive social network analysis of Reddit communities and user interactions using graph algorithms.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NetworkX</span>
+                            <span class="tag">Data Mining</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/CS-579-Reddit-Network-Analysis" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">AIR QUALITY & PUBLIC HEALTH</h3>
+                        <p>Exploring correlations between air quality and public health metrics in the United States.</p>
+                        <div class="tags">
+                            <span class="tag">R</span>
+                            <span class="tag">Data Viz</span>
+                            <span class="tag">Statistics</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/csp571-Analysis-Project" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">MASTODON DATA ANALYSIS</h3>
+                        <p>Network analysis of the Mastodon social platform examining user interactions and community dynamics.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Graph Theory</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/Analyzing-Mastadon-s-Public-Data" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-category">
+                <h3 class="category-title">Web & Application Development</h3>
+                <div class="grid">
+                    <div class="card">
+                        <h3 class="card-title">SMART HOME APPLICATION</h3>
+                        <p>React-based smart home control application with Express.js backend for managing connected devices.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">IoT</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/csp584-smarthomeapp" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">IOT-BASED SYSTEM FOR BOATS</h3>
+                        <p>Monitoring and security system for fishing boats using IoT technologies and real-time data tracking.</p>
+                        <div class="tags">
+                            <span class="tag">IoT</span>
+                            <span class="tag">Arduino</span>
+                            <span class="tag">Web App</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/IoT-Based-System-for-Boats" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title">CAR SHOWROOM WEBSITE</h3>
+                        <p>Online platform for exploring, comparing, and booking vehicles with user authentication and admin dashboard.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                        </div>
+                        <p style="margin-top: 10px;">
+                            <a href="https://github.com/alfa2k/Car-Showroom-Website" class="pixel-btn">View on GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="pixel-bar"></div>
+        
+        <section class="section">
+            <h2 class="title">Skills</h2>
+            
+            <div class="skill-section">
+                <h3 class="skill-title">LANGUAGES</h3>
+                <div class="skill-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">C/C++</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">R</span>
+                </div>
+            </div>
+            
+            <div class="skill-section">
+                <h3 class="skill-title">FRAMEWORKS & TOOLS</h3>
+                <div class="skill-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">Flutter</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">GCP</span>
+                    <span class="tag">Git</span>
+                </div>
+            </div>
+            
+            <div class="skill-section">
+                <h3 class="skill-title">AI/ML</h3>
+                <div class="skill-tags">
+                    <span class="tag">LangChain</span>
+                    <span class="tag">Autogen</span>
+                    <span class="tag">CrewAI</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">scikit-learn</span>
+                    <span class="tag">Llama</span>
+                </div>
+            </div>
+        </section>
+        
+        <div class="pixel-bar"></div>
+        
+        <section class="section">
+            <h2 class="title">Education</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3 class="card-title">ILLINOIS INSTITUTE OF TECHNOLOGY</h3>
+                    <p>M.S. Artificial Intelligence</p>
+                    <p>2023 - 2025</p>
+                    <p>GPA: 3.66/4.0</p>
+                </div>
+                
+                <div class="card">
+                    <h3 class="card-title">NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY</h3>
+                    <p>B.Eng. Computer Engineering</p>
+                    <p>2019 - 2023</p>
+                    <p>GPA: 3.78/4.0</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="pixel-bar"></div>
+        
+        <section class="section">
+            <h2 class="title">Currently Learning</h2>
+            <div class="skill-tags">
+                <span class="tag">Advanced Agent Architectures</span>
+                <span class="tag">RAG Systems</span>
+                <span class="tag">RLHF</span>
+                <span class="tag">Multimodal AI</span>
+            </div>
+        </section>
+    </main>
+    
+    <div class="pixel-bar"></div>
+    
+    <footer>
+        <p>© 2025 FATEEN AHMED<span class="pixel-cursor"></span></p>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        // Check if user has a saved preference
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme === 'dark') {
+            document.body.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '☀️';
+        } else if (currentTheme === 'light') {
+            document.body.setAttribute('data-theme', 'light');
+            themeToggle.textContent = '🌙';
+        } else if (prefersDarkScheme.matches) {
+            // If no saved preference, but system prefers dark mode
+            document.body.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '☀️';
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            if (document.body.getAttribute('data-theme') === 'dark') {
+                document.body.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                themeToggle.textContent = '🌙';
+            } else {
+                document.body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                themeToggle.textContent = '☀️';
+            }
+        });
+        
+        // Animation for sections - appear on scroll
+        const sections = document.querySelectorAll('.section');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+        
+        // Pixel effect on hover for buttons
+        const pixelBtns = document.querySelectorAll('.pixel-btn');
+        
+        pixelBtns.forEach(btn => {
+            btn.addEventListener('mouseover', () => {
+                btn.style.transition = 'transform 0.2s, box-shadow 0.2s';
+                setTimeout(() => {
+                    btn.style.transition = 'transform 0.1s, box-shadow 0.1s';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
