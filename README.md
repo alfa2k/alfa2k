@@ -1,95 +1,82 @@
-# FATEEN AHMED
+# 👋 Hi, I'm Fateen Ahmed
 
-![Profile Banner](https://drive.google.com/uc?export=view&id=12y2vP52ncVQwknYJNvHjfK4VAQG7CxRK)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/fateenahmed)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://fateenahmed.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fateenahmed.2k@gmail.com)
 
----
+## 🤖 About Me
 
-## 🌐 Personal Matrix
+AI Engineer and Full Stack Developer with experience at **Amazon**, **Meta**, and **Byanat**. Currently pursuing my M.S. in Artificial Intelligence at Illinois Institute of Technology, focusing on GenAI applications, LLMs, and intelligent agent systems.
 
-| Dimension        | Details           |
-|------------------|------------------|
-| **1** | Masters in AI at Illinois Institute of Technology |
-| **2** | Passion for building user-centric AI/ML solutions  |
-| **3** | Gaming enthusiast |
+```python
+class FateenAhmed:
+    def __init__(self):
+        self.name = "Fateen Ahmed"
+        self.role = "AI Engineer & Full Stack Developer"
+        self.education = "M.S. Artificial Intelligence @ Illinois Institute of Technology"
+        self.languages = ["Python", "JavaScript", "C/C++", "Java", "SQL", "R"]
+        self.interests = ["Generative AI", "LLM Agents", "Data Science", "Full Stack Development"]
+        self.current_focus = "Building intelligent systems with LangChain, Autogen, and Llama models"
+        
+    def greet(self):
+        return "Thanks for stopping by! Let's build something amazing together."
+```
 
+## 🛠️ Tech Stack
 
-## 🛠️ My Toolkit 🎒
-* **Programming Languages**: Python 🐍, Java ☕, C++, JavaScript 🪲
-* **Web Tech**: HTML 📄, CSS 🎨, PHP 🐘, Node.js 🟢
-* **AI/ML**: TensorFlow 🧠, PyTorch 🔥, scikit-learn 📊, Keras ⚙️
-* **Web Frameworks**: React ⚛️, Angular 🅰️, Vue.js 🌱
-* **Backend**: Django 🦄, Flask 🍶, Express.js 🚆
-* **Database Know-how**: SQL (MySQL, PostgreSQL) 📚, NoSQL (MongoDB) 🍃
-* **Cloud Platforms**: AWS 🌩️, Google Cloud ☁️
-* **DevOps & CI/CD**: Docker 🐳, Kubernetes ⛴
-* **IoT**: Raspberry Pi 🥧, MQTT 📡
-* **IDEs**: Jupyter Notebook 📓, Google Colab ☁️
-  
----
-# Timeline 🛤️
+**Languages:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-## 2019
-- **Bachelors in Computer Engineering @ NUST**
-  - Duration: January 2019 - May 2021
+**Frameworks & Tools:**  
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 
-## 2021-2023
-- **IoT Project for Fishing Boats**
-  - Duration: September 2022 - June 2023
-- **Web App for Uni Canteen**
-  - Duration: August 2020 - November 2020
-- **Google Developer Student Clubs Lead**
-  - Duration: August 2022 - January 2023
+**AI/ML:**  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-00A9BC?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTkuNDkgMjFhLjM4LjM4IDAgMCAxLS4zOC0uMzh2LS43NmMwLS4yMS4xNy0uMzguMzgtLjM4aDEuODlhMi4yNiAyLjI2IDAgMCAwIDAtNC41SDcuOTd2NS4yNmMwIC4yMS0uMTcuMzgtLjM4LjM4aC0uNzZhLjM4LjM4IDAgMCAxLS4zOC0uMzhWMTAuMTRjMC0uMjEuMTctLjM4LjM4LS4zOGg0LjE1YTMuNzcgMy43NyAwIDAgMSAwIDcuNTNIOS40OVYyMXptLTMuNzctMy43N2EuMzguMzggMCAwIDEtLjM4LS4zOHYtLjc2YzAtLjIxLjE3LS4zOC4zOC0uMzhoLjc2Yy4yMSAwIC4zOC4xNy4zOC4zOHYuNzZjMCAuMjEtLjE3LjM4LS4zOC4zOGgtLjc2em0xLjEzLTcuNTRhLjM4LjM4IDAgMCAxLS4zOC0uMzh2LS43NmMwLS4yMS4xNy0uMzguMzgtLjM4aC43NmMuMjEgMCAuMzguMTcuMzguMzh2Ljc2YzAgLjIxLS4xNy4zOC0uMzguMzhoLS43NnoiIGZpbGw9IiMwMEE5QkMiLz48cGF0aCBkPSJNMTQuNTEgMjFhLjM4LjM4IDAgMCAxLS4zOC0uMzh2LTYuMDJoLTEuODlhMi4yNiAyLjI2IDAgMCAwIDAtNC41MmgxLjg5VjguODRjMC0uMjEuMTctLjM4LjM4LS4zOGguNzZjLjIxIDAgLjM4LjE3LjM4LjM4djEuMjRoMS4xM2MuMjEgMCAuMzguMTcuMzguMzh2Ljc2YzAgLjIxLS4xNy4zOC0uMzguMzhoLTEuMTN2Ny4wMmMwIC4yMS0uMTcuMzgtLjM4LjM4aC0uNzZ6bS4zNy03LjUzaC43NmMuMjEgMCAuMzguMTcuMzguMzh2Ljc2YzAgLjIxLS4xNy4zOC0uMzguMzhoLS43NmEuMzguMzggMCAwIDEtLjM4LS4zOHYtLjc2YzAtLjIxLjE3LS4zOC4zOC0uMzh6bTMuMDIgMy43NmEuMzguMzggMCAwIDEtLjM4LS4zOHYtLjc2YzAtLjIxLjE3LS4zOC4zOC0uMzhoLjc2Yy4yMSAwIC4zOC4xNy4zOC4zOHYuNzZjMCAuMjEtLjE3LjM4LS4zOC4zOGgtLjc2eiIgZmlsbD0iIzAwQTlCQyIvPjwvc3ZnPg==&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama-000000?style=flat-square&logo=meta&logoColor=white)
 
-## 2023
-- **Completion of Bachelors**
-  - Date: May 2021
-- **Front-End Developer @ SACTECH**
-  - Duration: February 2022 - October 2022
-- **Masters in AI @ IIT**
-  - Start Date: August 2021 - Ongoing
+## 🚀 Featured Projects
 
----
-## 🤖 Artificial Intelligence 🧠
+### GenAI & ML Projects
+- [**GenAI Mobility Data Platform**](https://github.com/fateenahmed/alfa2k) - A comprehensive system for analyzing and visualizing transport data using Llama models and LangChain for enhanced decision-making.
+- [**AI Fake Review Detection**](https://github.com/fateenahmed/Research-Project-On-AI-Generated-Fake-Reviews) - Research project focused on detecting AI-generated fake reviews in Amazon product data.
+- [**Save CityX ML Challenge**](https://github.com/fateenahmed/rihal-task-ml-save-cityx) - Machine learning solution for the Rihal Codestacker Challenge.
 
-- **Algorithms**: 
-  - Supervised 🍎
-  - Unsupervised 👓
-  - NLP 🗣
-  - Computer Vision 👁
-  - Deep Learning 🕳
-  
-- **Data Processing**: 
-  - ETL 🔄
-  - Cleaning 🧽
-  - Visualization (Tableau, PowerBI) 📊
+### Data Analysis
+- [**Reddit Network Analysis**](https://github.com/fateenahmed/CS-579-Reddit-Network-Analysis) - Comprehensive social network analysis of Reddit communities and user interactions.
+- [**Air Quality & Public Health Analysis**](https://github.com/fateenahmed/csp571-Analysis-Project) - Exploring correlations between air quality and public health in the United States.
+- [**Mastodon Public Data Analysis**](https://github.com/fateenahmed/Analyzing-Mastadon-s-Public-Data) - Network analysis of the Mastodon social platform examining user interactions and community dynamics.
 
-## 🔌 IoT Expertise 🌍
+### Web & Application Development
+- [**Smart Home Application**](https://github.com/fateenahmed/csp584-smarthomeapp) - React-based smart home control application with Express.js backend.
+- [**IoT-Based System for Boats**](https://github.com/fateenahmed/IoT-Based-System-for-Boats) - Monitoring and security system for fishing boats using IoT technologies.
+- [**Car Showroom Website**](https://github.com/fateenahmed/Car-Showroom-Website) - Online platform for exploring, comparing, and booking vehicles.
 
-- **Hardware**: 
-  - Sensor Integration 🌡️
-  - GPS Modules 🛰️
-  - Circuit Design 🔌
-  
-- **Electronics**: 
-  - Microcontrollers 🎮
-  - Embedded Systems 🖲
+## 📊 GitHub Stats
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fateenahmed&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fateenahmed&layout=compact&theme=tokyonight)
 
----
+## 📚 Currently Learning
 
-
-[![Discord](https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg)](https://discord.com/users/660206884396990495)
-
+- Advanced Agent Architectures (CrewAI, AutoGen)
+- RAG Systems with Vector Databases
+- RLHF for LLM Alignment
+- Multimodal AI Applications
 
 ---
 
-## 📜 Certifications & Extras
-
-- Encoded in Google's `Data Analytics` Algorithm
-- Rewarded with the `Dean's List` Token
-
----
-
-🔗 Connect with me in the vast web of internet:
-💼 [LinkedIn](https://www.linkedin.com/in/fateen-ahmed-a5b1171b6/) | 🐦 [Portfolio](https://fateenahmed.framer.website
-)
+<p align="center">💡 <i>The best way to predict the future is to create it.</i> 💡</p>
