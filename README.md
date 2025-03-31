@@ -8,7 +8,7 @@ AI Engineer • Full Stack Developer • MS AI @ Illinois Tech
 
 ## About
 
-Amazon & Byanat alum focusing on GenAI applications, LLM agents, and intelligent systems.
+AI Engineer and Full Stack Developer with working experience with **Amazon** and **Byanat**. Currently pursuing my M.S. in Artificial Intelligence at Illinois Institute of Technology, focusing on GenAI applications, LLMs, and intelligent agent systems.
 
 ```python
 def focus():
