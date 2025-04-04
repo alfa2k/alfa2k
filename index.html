@@ -881,6 +881,16 @@
                     
                     html {
                         font-size: 14px;
+                        /* Prevent horizontal scrolling */
+                        overflow-x: hidden;
+                        width: 100%;
+                    }
+                    
+                    body {
+                        /* Ensure body doesn't overflow either */
+                        overflow-x: hidden;
+                        width: 100%;
+                        position: relative;
                     }
                     
                     .menu-toggle {
@@ -890,8 +900,7 @@
                     .nav-links {
                         position: fixed;
                         top: 80px;
-                        right: 0;
-                        transform: translateX(100%);
+                        right: -100%; /* Move off-screen using right instead of transform */
                         width: 80%;
                         max-width: 300px;
                         height: auto;
@@ -908,8 +917,7 @@
                     }
                     
                     .nav-links.active {
-                        right: 20px;
-                        transform: translateX(0);
+                        right: 20px; /* When active, bring menu on screen */
                     }
                     
                     .nav-text {
@@ -922,7 +930,7 @@
                         padding: 12px 20px;
                         margin-bottom: 5px;
                     }
-                    
+                
                     .theme-toggle {
                         margin: 10px auto;
                         width: 45px;
@@ -988,7 +996,6 @@
                         right: 0;
                     }
                 }
-
                 .menu-overlay {
                     display: none;
                     position: fixed;
