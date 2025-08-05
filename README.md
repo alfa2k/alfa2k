@@ -32,7 +32,7 @@ def focus():
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 
-## Select Projects
+## Some side Projects
 
 **GenAI**
 - [**GenAI Mobility Platform**](https://youtu.be/dhmRFlbCkkk) — Transport data analysis using Llama models
